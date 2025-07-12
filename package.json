@@ -1,0 +1,28 @@
+{
+  "name": "portifolio-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "portfolio",
+    "backend",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Moatasem Ezzeldin",
+  "license": "ISC",
+  "description": "Backend API for portfolio projects with projects.json and image upload",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
